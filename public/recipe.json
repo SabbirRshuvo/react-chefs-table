@@ -1,0 +1,86 @@
+[
+  {
+    "recipe_img": "https://i.ibb.co.com/MpPZhqc/food6.jpg",
+    "recipe_id": 1,
+    "recipe_name": "Chicken Stir Fry",
+    "short_description": "A quick and easy chicken stir fry with a flavorful sauce.",
+    "ingredients": [
+      "500g chicken",
+      "120ml soy sauce",
+      "200g basil leaf",
+      "400g mushroom"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/9pbfYR8/food1.jpg",
+    "recipe_id": 2,
+    "recipe_name": "Veggie Pasta",
+    "short_description": "Delicious pasta loaded with fresh vegetables.",
+    "ingredients": [
+      "300g pasta",
+      "150g cherry tomatoes",
+      "100g spinach",
+      "50g Parmesan cheese"
+    ],
+    "preparing_time": 25,
+    "calories": 280
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/sg8kkdg/food2.jpg",
+    "recipe_id": 3,
+    "recipe_name": "Beef Tacos",
+    "short_description": "Classic beef tacos with fresh toppings.",
+    "ingredients": [
+      "500g ground beef",
+      "100g taco seasoning",
+      "200g lettuce",
+      "150g shredded cheese"
+    ],
+    "preparing_time": 20,
+    "calories": 350
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/PrvMBxc/food3.jpg",
+    "recipe_id": 4,
+    "recipe_name": "Salmon Salad",
+    "short_description": "Healthy salad with fresh salmon and greens.",
+    "ingredients": [
+      "300g salmon",
+      "100g mixed greens",
+      "50g cucumber",
+      "30ml olive oil"
+    ],
+    "preparing_time": 15,
+    "calories": 250
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/CQQ8gBk/food4.jpg",
+    "recipe_id": 5,
+    "recipe_name": "Chocolate Cake",
+    "short_description": "Rich and moist chocolate cake.",
+    "ingredients": [
+      "200g flour",
+      "100g cocoa powder",
+      "150g sugar",
+      "100ml milk"
+    ],
+    "preparing_time": 40,
+    "calories": 400
+  },
+  {
+    "recipe_img": "https://i.ibb.co.com/WV6mV0Q/food5.jpg",
+    "recipe_id": 6,
+    "recipe_name": "Fruit Smoothie",
+    "short_description": "Refreshing smoothie with mixed fruits.",
+    "ingredients": [
+      "200g strawberries",
+      "150g bananas",
+      "100g blueberries",
+      "200ml almond milk"
+    ],
+    "preparing_time": 10,
+    "calories": 180
+  }
+]

@@ -1,9 +1,15 @@
-import "./App.css";
+import Header from "./Layout/Header";
+import Hero from "./Layout/Hero";
+import Recipe from "./Layout/Recipe";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="container mx-auto">
+        <Header />
+        <Hero />
+        <Recipe />
+      </div>
     </>
   );
 }
