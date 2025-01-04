@@ -1,31 +1,31 @@
-import image from "../images/bg-table.jpg";
-
 const Hero = () => {
   return (
-    <div className="relative bg-cover bg-center  flex items-center justify-center min-h-[50vh]  my-10">
-      <div className="absolute">
-        <img className="rounded-xl" src={image} alt="" />
-      </div>
-
-      <div className="relative text-center text-slate-200  px-4  ">
-        <h1 className="sm:text-2xl md:text-4xl font-bold mb-4">
+    <section
+      className="relative h-[50vh] flex items-center justify-center bg-cover bg-center text-slate-300 rounded-2xl"
+      style={{
+        backgroundImage: "url('https://i.ibb.co.com/YBTWZWk/Rectangle-1.png')",
+      }}
+    >
+      {/* Content */}
+      <div className="relative text-center p-4">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Discover an exceptional cooking class tailored for you!
         </h1>
-        <p className="md:text-lg sm:text-sm mb-6">
+        <p className="text-lg md:text-xl mb-6">
           Learn and Master Basic Programming, Data Structures, Algorithm, OOP,
           Database and solve 500+ coding problems to become an exceptionally
           well world-class Programmer.
         </p>
-        <div className="flex justify-center gap-4 ">
-          <button className="bg-green-500 hover:bg-green-600  px-4 py-1 rounded-xl text-black font-semibold  transition transform">
+        <div className="flex flex-col md:flex-row gap-4 justify-center">
+          <button className="bg-green-500 py-1 px-4 rounded-2xl text-lg hover:bg-green-600 transition-colors transform">
             Explore Now
           </button>
-          <button className="bg-transparent text-black border py-1 px-4 rounded-xl">
+          <button className="transition-colors transform border px-4 py-1 rounded-2xl">
             Our Feedback
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
